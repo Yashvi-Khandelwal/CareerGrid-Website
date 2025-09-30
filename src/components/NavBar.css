@@ -1,0 +1,80 @@
+.navBar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #faeee7;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.app-title {
+    color: #33272a;
+    font-weight: 900;
+    /* font-size: 1.5rem; */
+}
+
+.nav-items {
+    color: #33272a;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-items a {
+    color: inherit;
+    font-weight: 600;
+}
+
+.active-link {
+    color: #ff6f61;
+    font-weight: 700;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-items {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 3rem;
+        background-color: #faeee7;
+        transition: right 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .nav-items.open {
+        right: 0;
+    }
+
+    .nav-items a {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+        padding-left: 2rem;
+    }
+
+    .nav-items a {
+        font-size: 1.5rem;
+        padding-left: 2rem;
+    }
+
+    .nav-items a:hover {
+        color: #ff2e88;
+    }
+}
