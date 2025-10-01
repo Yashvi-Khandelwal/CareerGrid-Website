@@ -28,7 +28,6 @@
     font-size: 1rem;
     word-spacing: 0.4rem;
     text-align: center;
-    max-width: 600px;
 }
 
 .cta-buttons {
@@ -46,10 +45,12 @@
     border-radius: 0.6rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 0.8rem;
 }
 
 .cta-buttons button:hover {
     background-color: #594a4e;
+    transform: scale(1.05);
 }
 
 .highlights-section {
@@ -102,7 +103,7 @@
 
 .feature-card-desc {
     font-size: 1rem;
-    color: #555;
+    color: #594a4e;
     line-height: 1.4;
 }
 
