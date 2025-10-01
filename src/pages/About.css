@@ -1,0 +1,79 @@
+.about-container {
+    min-height: 100vh;
+}
+
+.about-hero-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-hero-section h1 {
+    color: #33272a;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about-hero-section p {
+    color: #594a4e;
+    font-size: 1.2rem;
+    word-spacing: 0.3rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.about-description {
+    background-color: #faeee7;
+    /* padding: auto 1.5rem; */
+}
+
+.about-description p {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+    font-size: 1.1rem;
+    color: #594a4e;
+}
+
+.about-story{
+    display: flex;
+     justify-content: space-around;
+    max-height: 100vh;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+}
+
+.my-image{
+     width: 25rem;
+    height: 25rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.my-image img{
+     width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  display: block;
+}
+
+.content{
+    max-width: 50%;
+    font-size: 1.2rem;
+}
+
+.content h2{
+    color: #594a4e;
+}
+
+.content p{
+    text-align:justify;
+    color:#594a4e ;
+}
+
+.punchLine{
+    text-align: center;
+        color: #594a4e;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
