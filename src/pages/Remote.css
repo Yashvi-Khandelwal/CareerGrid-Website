@@ -1,0 +1,63 @@
+.remote-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.remote-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.remote-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.remote-hero p {
+  font-size: 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  line-height: 1.6rem;
+  color: #555;
+}
+
+/* Grid container for company cards */
+.remote-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.5rem;
+}
+
+/* Individual company card */
+.remote-card {
+  background-color: #ffffff;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: default;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.remote-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .remote-grid {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .remote-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+}
