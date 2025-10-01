@@ -1,7 +1,7 @@
 import "./Home.css"
 
 export const Home = () => {
-    const features = [
+  const features = [
     {
       icon: "✉️",
       title: "Templates",
@@ -23,20 +23,20 @@ export const Home = () => {
       desc: "More templates, cities, and resources to be added regularly for your career growth."
     }
   ];
-    return (
-        <section className="home-container">
-            <div className="hero-section">
-                <h1>CareerGrid</h1>
-                <h2>Plan. Prepare. Apply</h2>
-                <p>Explore ready-to-use templates,
-                    company info, and remote opportunities all in one.</p>
-                <div className="cta-buttons">
-                    <button>Explore Templates</button>
-                    <button>Explore Companies</button>
-                </div>
-            </div>
+  return (
+    <section className="home-container">
+      <div className="hero-section">
+        <h1>CareerGrid</h1>
+        <h2>Plan. Prepare. Apply</h2>
+        <p>Explore ready-to-use templates,
+          company info, and remote opportunities all in one.</p>
+        <div className="cta-buttons">
+          <button>Explore Templates</button>
+          <button>Explore Companies</button>
+        </div>
+      </div>
 
-        <div className="highlights-section">
+      <div className="highlights-section">
         <h2 className="card-section-title">App Features</h2>
         <div className="cards-container">
           {features.map((feature, index) => (
@@ -47,7 +47,7 @@ export const Home = () => {
             </div>
           ))}
         </div>
-            </div>
-        </section>
-    )
+      </div>
+    </section>
+  )
 }
