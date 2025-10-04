@@ -1,5 +1,3 @@
-// src/data/RemoteCompanies.js
-
 export const remoteCompanies = [
  { id: 1, name: "Superside" },
   { id: 2, name: "Andela" },
@@ -10,5 +8,28 @@ export const remoteCompanies = [
   { id: 7, name: "Zapier" },
   { id: 8, name: "GitLab" },
   { id: 9, name: "Automattic" },
-  { id: 10, name: "InVision" }
+  { id: 10, name: "InVision" },
+  { id: 11, name: "Mercor" },
+  { id: 12, name: "GrowthGear" },
+  { id: 13, name: "RoundTechSquare" },
+  { id: 14, name: "Zensar" },
+  { id: 15, name: "NirveonX" },
+  { id: 16, name: "Logicxcel" },
+  { id: 17, name: "Think Beyond Solutions" },
+  { id: 18, name: "Savii" },
+  { id: 19, name: "LenDenClub" },
+  { id: 20, name: "Sadhrasya SoftTech" },
+  { id: 21, name: "QuickParse Pvt. Ltd." },
+  { id: 22, name: "ClearQuote" },
+  { id: 23, name: "FlowCase" },
+  { id: 24, name: "CloudNest Technologies" },
+  { id: 25, name: "Huddle01" },
+  { id: 26, name: "TopTal" },
+  { id: 27, name: "WebFlow" },
+  { id: 28, name: "Doist" },
+  { id: 29, name: "Buffer" },
+  { id: 30, name: "Sanofi" },
+  { id: 31, name: "Netomi" },
+  { id: 32, name: "Coinbase" },
+  { id: 33, name: "Revolut" }
 ];

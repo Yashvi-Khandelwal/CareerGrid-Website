@@ -1,13 +1,16 @@
 import "./Remote.css";
 import { remoteCompanies } from "../data/remoteCompaniesData";
 
-export const Remote = () =>{
-    return(
-           <section className="remote-container">
+export const Remote = () => {
+  return (
+    <section className="remote-container">
       <div className="remote-hero">
         <h1>Explore Remote Opportunities</h1>
         <p>
-          Discover companies offering remote positions across domains. This section lists publicly available company names that provide remote work options. The list is small now but scalable for future updates.
+          This section presents a list of companies that offer remote opportunities.
+          While not every role at these companies is fully remote, the list provides a clear reference of organizations with remote-friendly positions.
+          Only company names are displayed here for simplicity and clarity.
+          The list is currently limited and will be expanded as additional information becomes available, providing a reliable starting point for exploring remote career options.
         </p>
       </div>
 
@@ -19,5 +22,5 @@ export const Remote = () =>{
         ))}
       </div>
     </section>
-    )
+  )
 }
