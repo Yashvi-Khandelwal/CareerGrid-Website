@@ -1,4 +1,3 @@
-// src/components/Companies/CompanyCard.js
 import { FaCity } from "react-icons/fa";
 
 export const CompanyCard = ({ city, companies, onViewAll }) => {

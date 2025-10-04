@@ -4,13 +4,51 @@ export const companiesData = [
         companies: [
             "eCodeSoft Solutions",
             "Rayno Innovations Pvt. Ltd.",
+            "AppAspect Technologies",
+            "eQuest Solutions",
+            "Huptech Web Pvt. Ltd.",
+            "NexusLink Services India Pvt. Ltd.",
             "Medscred",
-                        "Greyline Infotech",
+            "Bytes Technolab Private Limited",
+            "Treesha Infotech",
+            "Valens DataLabs Pvt Ltd",
+            "Techtic Technolab Pvt Ltd.",
+            "Digiqt Technolabs Pvt. Ltd.",
+            "Devine Globe Technologies",
+            "BrainBox Infoway Pvt Ltd.",
+            "Wan Buffer Services",
+            "Orange Technolab",
+            "Techlusion",
+            "CMARIX",
+            "Solvios Technology",
+            "Greyline Infotech",
             "Moon Technolabs",
             "E2M Solutions",
             "Radixweb",
+            "Excellent Webworld",
+            "AORC Technologies",
+            "KanhaSoft",
+            "Openxcell",
+            "Zobi Web Solutions ",
             "YoungBrainz Infotech Pvt. Ltd.",
-            "XcelTec"
+            "ZealousWeb Technologies Pvt. Ltd.",
+            "XcelTec",
+            "Vnnovate Solutions Pvt. Ltd",
+            "World Web Technology Pvt. Ltd."
+        ]
+    },
+    {
+        city: "Dahod",
+        companies: [
+            "ActiveServers",
+           "TechOmega Solutions"
+        ]
+    },
+     {
+        city: "Rajkot",
+        companies: [
+            "Orderloop",
+             "Logistic Infotech Pvt Ltd"
         ]
     },
     {
@@ -20,12 +58,19 @@ export const companiesData = [
             "Hevin Technoweb",
             "Brighten Solutions Pvt Ltd",
             "Jyoti Technosoft LLP",
-           "MatLab Infotech",
-            "HDFC Bank",
-            "Axis Bank",
-            "Cognizant",
-            "Morgan Stanley",
-            "Kotak Mahindra Bank"
+            "MatLab Infotech",
+            "Hyeon Infotech",
+            "CodeLamda Technologies",
+            "InfyOm Technologies",
+            "UNIKWORK",
+            "Vasundhara Infotech",
+            "Keylogic Infotech Private Limited",
+            "Augean Enterprise Solutions",
+            "EnactOn Technologies Private Limited",
+            "Propelius Technologies",
+            "Significant Infotech",
+            "Vrutti Technologies Pvt. Ltd.",
+            "TekPillar"
         ]
     },
     {
@@ -33,6 +78,7 @@ export const companiesData = [
         companies: [
             "Eliteware Solutions",
             "BarodaWeb",
+            "SoftSages Technology",
             "Easyway3e Solutions Pvt. Ltd.",
             "Epoxy House",
             "Jyoti Limited",
@@ -43,7 +89,10 @@ export const companiesData = [
             "Evonix Technologies Pvt. Ltd.",
             "TenUp Software Services",
             "Webmyne Systems Pvt. Ltd.",
+            "Techgrains Technologies Pvt. Ltd.",
             "Reyna Solutions",
+            "Absolute Web",
+            "Webbrains Technologies Private Limited",
             "Prakash Software Solutions",
             "Vardaam Web Solutions PVT. LTD",
             "Ample Websol",
