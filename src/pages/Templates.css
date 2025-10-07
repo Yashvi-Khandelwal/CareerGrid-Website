@@ -1,33 +1,35 @@
-.template-container{
+.template-container {
     min-height: 100vh;
-    padding: 1rem;
 }
 
-.template-hero-section{
+.template-hero-section {
     display: flex;
     flex-direction: column;
     padding: 0 2rem;
 }
 
-.template-hero-section h1{
+.template-hero-section h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
     text-align: center;
+    color: #33272a;
 }
 
-.template-hero-section h2{
+.template-hero-section h2 {
+    color: #594a4e;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
 }
 
-.template-hero-section p{
-    margin: 0 auto 2rem;
+.template-hero-section p {
+    color: #594a4e;
+    /* margin: 0 auto 2rem; */
     text-align: justify;
     line-height: 1.6rem;
 }
 
-.template-cards-container{
+.template-cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
     gap: 1.5rem;
@@ -35,37 +37,42 @@
 }
 
 .template-disclaimer-marquee {
-  overflow: hidden;
-  white-space: nowrap;
-  background-color: #faeee7;
-  border-left: 4px solid #faeee7;
-  padding: 0.5rem 0;
-  margin: 2rem auto;
-  max-width: 100%;
-  border-radius: 0.5rem;
-  position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #ffc6c7;
+    border-left: 4px solid #faeee7;
+    padding: 0.5rem 0;
+    margin: 2rem auto;
+    max-width: 100%;
+    border-radius: 0.5rem;
+    position: relative;
 }
 
 .template-disclaimer-marquee p {
-  display: inline-block;
-  padding-left: 100%; 
-  animation: marquee 15s linear infinite;
-  font-size: 0.9rem;
-  color: #555;
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+    font-size: 0.9rem;
+    color: #594a4e;
 }
 
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 
 
-.template-card{
+.template-card {
     background-color: #faeee7;
     padding: 1.5rem;
     border-radius: 0.75rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.05);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,28 +80,29 @@
     margin: 1.3rem;
 }
 
-.template-card:hover{
+.template-card:hover {
     transform: translateY(-0.3125rem);
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.template-card h3{
+.template-card h3 {
     font-size: 1.2rem;
     margin-bottom: 0.8rem;
 }
 
-.template-card p{
+.template-card p {
     flex: 1;
     margin-bottom: 1rem;
     color: #555;
 }
 
-.card-buttons{
+.card-buttons {
     display: flex;
     gap: 0.5rem;
 }
 
-.copy-btn, .readmore-btn{
+.copy-btn,
+.readmore-btn {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 0.5rem;
@@ -103,31 +111,31 @@
     transition: background-color 0.2s;
 }
 
-.copy-btn{
-    background-color: #4caf50;
+.copy-btn {
+    background-color: #33272a;
     color: white;
 }
 
-.copy-btn:hover{
-    background-color: #45a049;
+.copy-btn:hover {
+    background-color: #594a4e;
 }
 
-.readmore-btn{
-    background-color: #2196f3;
+.readmore-btn {
+    background-color: #33272a;
     color: white;
 }
 
-.readmore-btn:hover{
-    background-color: #1e88e5;
+.readmore-btn:hover {
+    background-color: #594a4e;
 }
 
-.modal-overlay{
+.modal-overlay {
     position: fixed;
     top: 0;
-    left:0;
+    left: 0;
     width: 100%;
-    height:100%;
-    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(0.25rem);
     display: flex;
     align-items: center;
@@ -136,7 +144,7 @@
     padding: 1rem;
 }
 
-.modal-content{
+.modal-content {
     background-color: #fff;
     border-radius: 0.75rem;
     max-width: 37.5rem;
@@ -147,7 +155,7 @@
     position: relative;
 }
 
-.modal-close{
+.modal-close {
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -156,7 +164,7 @@
     cursor: pointer;
 }
 
-.toast{
+.toast {
     position: fixed;
     top: 2rem;
     right: 2rem;
@@ -168,11 +176,12 @@
     z-index: 1100;
 }
 
-@media(max-width:48rem){
-    .template-hero-section h1{
+@media(max-width:48rem) {
+    .template-hero-section h1 {
         font-size: 2.5rem;
     }
-    .template-hero-section h2{
+
+    .template-hero-section h2 {
         font-size: 1.2rem;
     }
 }

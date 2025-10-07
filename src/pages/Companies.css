@@ -8,11 +8,13 @@
 }
 
 .companies-hero-section h1 {
+    color: #33272a;
     font-size: 4rem;
     text-align: center;
 }
 
 .companies-hero-section h2 {
+    color: #594a4e;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -24,6 +26,7 @@
     text-align: justify;
     line-height: 1.6rem;
     margin: 0 auto;
+    color: #594a4e;
 }
 
 .companies-card-grid {
@@ -179,6 +182,12 @@
         grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
         gap: 1rem;
     }
+    .company-card{
+        padding: 2rem;
+    }
+    .company-card li {
+   font-size: 1rem;
+}
 }
 
 @media (max-width: 576px) {
@@ -187,4 +196,10 @@
         padding: 1rem;
         gap: 0.8rem;
     }
+     .company-card{
+        padding: 2rem;
+    }
+    .company-card li {
+    font-size: 1rem;
+}
 }

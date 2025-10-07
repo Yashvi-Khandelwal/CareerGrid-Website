@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AiOutlineClose } from "react-icons/ai"; // Modal close icon
+import { AiOutlineClose } from "react-icons/ai";
 import "./Templates.css";
 
 export const TemplateCard = ({ template }) => {
