@@ -13,7 +13,7 @@
 .app-title {
     color: #33272a;
     font-weight: 900;
-    /* font-size: 1.5rem; */
+    font-size: 1.6rem;
 }
 
 .nav-items {
@@ -23,13 +23,33 @@
 }
 
 .nav-items a {
-    color: inherit;
+     color: #33272a;
     font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-items a:hover,
+.nav-items a:focus {
+    color: #594a4e;
+    outline: none;
 }
 
 .active-link {
-    color: #ff6f61;
+    color: #594a4e;
     font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.active-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.2rem;
+    width: 100%;
+    height: 0.15rem;
+    background-color: #594a4e;
+    border-radius: 0.1rem;
 }
 
 .hamburger {
@@ -49,10 +69,10 @@
         right: -100%;
         height: 100%;
         width: 60%;
-        display: flex;
         flex-direction: column;
         gap: 2rem;
-        padding-top: 3rem;
+        padding-top: 4rem;
+        padding-left: 2rem;
         background-color: #faeee7;
         transition: right 0.3s ease-in-out;
         z-index: 1000;
@@ -63,18 +83,12 @@
     }
 
     .nav-items a {
-        flex-direction: column;
-        gap: 2rem;
-        align-items: flex-start;
-        padding-left: 2rem;
-    }
-
-    .nav-items a {
         font-size: 1.5rem;
-        padding-left: 2rem;
+        padding-left: 0;
     }
 
-    .nav-items a:hover {
-        color: #ff2e88;
+    .nav-items a:hover,
+    .nav-items a:focus {
+        color: #594a4e;
     }
 }

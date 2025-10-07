@@ -1,80 +1,115 @@
 .about-container {
-    min-height: 100vh;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-hero-section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 .about-hero-section h1 {
-    color: #33272a;
-    font-size: 4rem;
-    text-align: center;
+  color: #33272a;
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .about-hero-section p {
-    color: #594a4e;
-    font-size: 1.2rem;
-    word-spacing: 0.3rem;
-    text-align: center;
-    font-style: italic;
+  color:#594a4e;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-style: italic;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 800px;
 }
 
 .about-description {
-    background-color: #faeee7;
-    /* padding: auto 1.5rem; */
+  background-color: #faeee7;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
 }
 
 .about-description p {
-    margin: 1rem;
-    padding-bottom: 1rem;
-    text-align: justify;
-    font-size: 1.1rem;
-    color: #594a4e;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #594a4e;
 }
 
-.about-story{
-    display: flex;
-     justify-content: space-around;
-    max-height: 100vh;
-    padding: 4rem 2rem;
-    margin: 0 auto;
+.about-story {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
-.my-image{
-     width: 25rem;
-    height: 25rem;
-    border-radius: 2rem;
-    overflow: hidden;
+.content {
+  flex: 1 1 300px;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
-.my-image img{
-     width: 100%;
+.content h2 {
+  color:#594a4e;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  color: #594a4e;
+}
+
+.my-image {
+  flex: 0 0 250px;
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.my-image img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: inherit;
   display: block;
 }
 
-.content{
-    max-width: 50%;
-    font-size: 1.2rem;
+.my-image:hover {
+  transform: scale(1.05);
 }
 
-.content h2{
-    color: #594a4e;
+.punchLine {
+  text-align: center;
+  color: #594a4e;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
-.content p{
-    text-align:justify;
-    color:#594a4e ;
-}
-
-.punchLine{
+@media (max-width: 768px) {
+  .about-story {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-        color: #594a4e;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-}
+  }
 
+  .my-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+}

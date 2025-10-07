@@ -16,13 +16,13 @@ export const NavBar = ()=>{
                 CareerGrid
             </div>
 
-              <div
+              <button
         className="hamburger"
         onClick={toggleDrawer}
         aria-label={isOpen ? "Close menu" : "Open menu"}
       >
         {isOpen ? <AiOutlineClose size={30} /> : <GiHamburgerMenu size={30} />}
-      </div>
+      </button>
 
             <div className={`nav-items ${isOpen ? "open" : ""}`}>
                 <NavLink to="/"   className={({ isActive }) => isActive ? "active-link" : ""}>Home</NavLink>
