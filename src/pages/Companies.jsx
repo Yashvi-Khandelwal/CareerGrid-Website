@@ -45,6 +45,7 @@ export const Companies = () => {
                     onClose={handleClose}
                 />
             )}
+            
         </section>
     )
 }

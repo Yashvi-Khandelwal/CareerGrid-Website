@@ -31,6 +31,8 @@ export const NavBar = ()=>{
                 <NavLink to="/companies" className={({ isActive }) => isActive ? "active-link" : ""}>Companies</NavLink>
                 <NavLink to="/remote" className={({ isActive }) => isActive ? "active-link" : ""}>Remote</NavLink>
             </div>
+
+            {isOpen && <div className="overlay" onClick={toggleDrawer}></div>}
         </nav>
     )
 }
