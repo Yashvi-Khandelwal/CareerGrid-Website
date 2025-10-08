@@ -10,6 +10,8 @@ It provides ready-to-use email & LinkedIn templates, city-wise company insights,
 With CareerGrid, users can confidently approach HRs, ask for guidance, request referrals, or explore companies and remote opportunities — saving time while staying professional.
 
 ---
+![Home Page](assets/home.jpg)
+![Templates Section](assets/templates.jpg)
 
 
 ## Features
