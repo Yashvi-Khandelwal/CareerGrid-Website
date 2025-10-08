@@ -5,6 +5,7 @@ import { About } from "./pages/About"
 import { Templates } from "./pages/Templates"
 import { Companies } from "./pages/Companies"
 import { Remote } from "./pages/Remote"
+import { ErrorPage } from "./pages/Errorpage"
 
 function App() {
   const router = createBrowserRouter([
@@ -13,6 +14,7 @@ function App() {
       element:(
           <Layout />
       ),
+      errorElement:<ErrorPage />,
       children:[
           {
         path: "/",

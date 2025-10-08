@@ -28,11 +28,14 @@ export const TemplateCard = ({ template }) => {
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <button className="modal-close" onClick={() => setShowModal(false)}>
-              <AiOutlineClose size={24} />
-            </button>
-            <h3>{template.title}</h3>
-            <pre>{template.content}</pre>
+          <div className="modal-header">
+  <h3>{template.title}</h3>
+  <button className="modal-close" onClick={() => setShowModal(false)}>
+    <AiOutlineClose size={24} />
+  </button>
+</div>
+<pre>{template.content}</pre>
+
           </div>
         </div>
       )}
