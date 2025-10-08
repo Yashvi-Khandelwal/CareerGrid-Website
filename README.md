@@ -20,14 +20,6 @@ With CareerGrid, users can confidently approach HRs, ask for guidance, request r
 
 ---
 
-## Screenshots
-![Home Page](path-to-home-screenshot)
-![Templates Section](path-to-templates-screenshot)
-![Companies Section](path-to-companies-screenshot)
-![Remote Jobs](path-to-remote-screenshot)
-
----
-
 ## Tech Stack
 - React 19
 - React Router DOM
@@ -39,5 +31,28 @@ With CareerGrid, users can confidently approach HRs, ask for guidance, request r
 ## Installation
 
 1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/CareerGrid.git
+  https://github.com/Yashvi-Khandelwal/CareerGrid-Website.git
+2. Navigate to project folder:
+   cd CareerGrid
+3. Install dependencies:
+   npm install
+4. Run locally:
+   npm run dev
+
+## Deployment
+The project is hosted on Netlify:  
+[careergrid.netlify.app](https://careergrid.netlify.app)
+
+## Future Scope
+- Expand template collection and city-wise company lists.
+- Add more remote opportunities.
+- Allow users to submit company suggestions.
+- Advanced filtering and search features.
+
+## Contact
+**Yashvi Khandelwal**  
+Email: [khandelwalyashvi427@gmail.com](mailto:khandelwalyashvi427@gmail.com)  
+LinkedIn: [www.linkedin.com/in/yashvikhandelwal](https://www.linkedin.com/in/yashvikhandelwal)
+
+
+
