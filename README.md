@@ -11,8 +11,8 @@ With CareerGrid, users can confidently approach HRs, ask for guidance, request r
 
 ---
 
-![Home Page](public/home.png)
-![Templates Section](public/templates.png)
+![Home Page](public/home.jpg)
+![Templates Section](public/templates.jpg)
 
 
 ## Features
