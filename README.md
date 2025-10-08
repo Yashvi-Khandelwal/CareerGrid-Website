@@ -11,6 +11,10 @@ With CareerGrid, users can confidently approach HRs, ask for guidance, request r
 
 ---
 
+![Home Page](public/home.png)
+![Templates Section](public/templates.png)
+
+
 ## Features
 - Ready-to-use email and LinkedIn templates for HR outreach, guidance requests, referrals, and networking.
 - City-wise company listings with publicly available information.
