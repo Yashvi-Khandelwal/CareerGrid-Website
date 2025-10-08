@@ -1,16 +1,43 @@
-# React + Vite
+# CareerGrid
+A platform to simplify career outreach with ready-to-use templates and city-wise company insights.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Overview
+CareerGrid is designed for students, job seekers, and professionals looking for guidance in career communication.  
+It provides ready-to-use email & LinkedIn templates, city-wise company insights, and remote job opportunities — all in one place.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+With CareerGrid, users can confidently approach HRs, ask for guidance, request referrals, or explore companies and remote opportunities — saving time while staying professional.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Ready-to-use email and LinkedIn templates for HR outreach, guidance requests, referrals, and networking.
+- City-wise company listings with publicly available information.
+- Remote job opportunities for IT companies.
+- Fully responsive React application with clean UI and card-based layout.
+- Easy copy functionality and pop-up template view for user convenience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+![Home Page](path-to-home-screenshot)
+![Templates Section](path-to-templates-screenshot)
+![Companies Section](path-to-companies-screenshot)
+![Remote Jobs](path-to-remote-screenshot)
+
+---
+
+## Tech Stack
+- React 19
+- React Router DOM
+- Plain CSS
+- Deployed on Netlify
+
+---
+
+## Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/CareerGrid.git
